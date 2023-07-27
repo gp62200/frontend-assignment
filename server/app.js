@@ -37,7 +37,7 @@ app.post('/api/fetchStockData',async (req, res) => {
     //   console.log(data)
       res.json(data);
     } catch (error) {
-      res.status(500).json({ error: 'An error occurred while fetching data.' });
+      res.status(500).json({ error: 'An error occurred while fetching datas.' });
     }
 });
 
